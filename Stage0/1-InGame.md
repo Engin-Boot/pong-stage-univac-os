@@ -19,7 +19,7 @@ Player/players with a mobile/pc having stable internet for multiplayer
 
   When the game shows the settings and stats of player
 
-  Then the game starts from left side(cause i am lefty)
+  Then the game starts from left side.
 
 ### Scenario: Who will get WINNER WINNER chicken DINNER
 
