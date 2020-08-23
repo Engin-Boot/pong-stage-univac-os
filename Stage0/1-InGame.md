@@ -31,7 +31,7 @@ Player/players with a mobile/pc having stable internet for multiplayer
   Then the display function will show the scores with animation
   and update the stats
 
-### Scenario: Sart of ball from which side
+### Scenario: Start of ball from which side
 
   Given the player at start of game
 
