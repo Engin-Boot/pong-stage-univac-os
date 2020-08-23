@@ -13,14 +13,6 @@ Player/players with a mobile/pc having stable internet for multiplayer
   Then a timer of 10 seconds is shown the settings of game and stats
   of player
 
-### Scenario: Sart of ball from which side
-
-  Given the player at start of game
-
-  When the game shows the settings and stats of player
-  
-  Then game starts from left side.
-
 ### Scenario: Who will get WINNER WINNER chicken DINNER
 
   Given players are already in game
@@ -38,3 +30,12 @@ Player/players with a mobile/pc having stable internet for multiplayer
 
   Then the display function will show the scores with animation
   and update the stats
+
+
+### Scenario: Sart of ball from which side
+
+  Given the player at start of game
+
+  When the game shows the settings and stats of player
+  
+  Then game starts from the left side.
