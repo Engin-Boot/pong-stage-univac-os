@@ -1,17 +1,36 @@
-# -give-this-module-a-name
+# 0-GAME STARTING
 
 ## Feature
 
-What part of the game does this module deliver?
+player can opt for playing(single mode,multiplayer mode[ONLINE,LOCAL],
+Rate the game ,choose Difficulty,game settings, shop and exit
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+Player/players with a mobile/pc having the game can play
+and stable internet for multiplayer mode.
 
-  Given -give-initial-values-and-conditions
+### Scenario: Background
 
-  When -event-happens
+  Given the background and dimensions
 
-  Then -module-does-this
+  When game launched
 
-### -add-scenario-if-needed
+  Then the background is setup.
+
+### Scenario: how to select the level of difficulty
+
+  Given the player in menu option.
+
+  When the player press "Difficulty" option.
+
+  Then it allows player to choose with difficulty using AI
+  low,medium,hard,custom
+  
+### Scenario: how to start game
+
+  Given the player in menu option
+
+  When the player press "PLAY"
+
+  Then ball, paddle and background are rendered for game to start
