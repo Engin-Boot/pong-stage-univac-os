@@ -20,22 +20,4 @@ Player/players with a mobile/pc having stable internet for multiplayer
   When any player score the number as mentioned in settings
 
   Then declare the player as WINNER WINNER chicken DINNER
-  with animation
-
-### Scenario: Displaying scores of players in Multiplayer mode
-
-  Given the players in online mode
-
-  When any of the player wins the game
-
-  Then the display function will show the scores with animation
-  and update the stats
-
-
-### Scenario: Sart of ball from which side
-
-  Given the player at start of game
-
-  When the game shows the settings and stats of player
-  
-  Then game starts from the left side.
+  with animation.
